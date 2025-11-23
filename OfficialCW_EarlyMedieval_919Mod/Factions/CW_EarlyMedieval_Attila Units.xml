@@ -21,6 +21,8 @@
 		<MenAtArm type="crossbowmen" key="cha_cel_pictish_crossbowmen" max="RANGED"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="cha_fra_horsemen" max="CAVALRY"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="cha_gen_noble_cav" max="CAVALRY"></MenAtArm>
+		<MenAtArm type="handgunners" key="att_rom_cheiroballistra" max="RANGED"></MenAtArm>
+				
 		<MenAtArm type="house_guard" key="cha_spa_royal_guardsmen" max="INFANTRY"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="cha_pap_guardsmen" max="INFANTRY"></MenAtArm>
 		<MenAtArm type="jomsviking_pirates" key="cha_vik_big_axes" max="INFANTRY"></MenAtArm>
@@ -29,6 +31,17 @@
 		<MenAtArm type="maa_poachers" key="BRIT_saethwyr" max="RANGED"></MenAtArm>
 		<MenAtArm type="maa_marauders" key="BAL_nordic_retinue" max="CAVALRY"></MenAtArm>
 		<MenAtArm type="maa_thieves" key="BRIT_aulue" max="INFANTRY"></MenAtArm>		
+	
+		<MenAtArm type="onager" key="cha_gen_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_byz_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_gen_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_byz_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="ballista" key="cha_gen_onager" max="RANGED"></MenAtArm> 
+		<MenAtArm type="ballista_elephant" key="cha_gen_onager" max="RANGED"></MenAtArm> 
+		<MenAtArm type="rocket_carts" key="cha_byz_onager_bastion" max="RANGED"></MenAtArm> 
+		<MenAtArm type="cloud_ladder" key="cha_gen_onager" max="RANGED"></MenAtArm> 
+		<MenAtArm type="siege_tower" key="cha_gen_onager" max="RANGED"></MenAtArm> 
+		<MenAtArm type="cannon" key="cha_byz_onager_bastion" max="RANGED"></MenAtArm> 
 		
 		<MenAtArm type="caballero" key="cha_spa_jinetes" max="CAVALRY"></MenAtArm>
 		<MenAtArm type="camel_rider" key="att_des_camel_warriors" max="CAVALRY"></MenAtArm>
@@ -56,7 +69,7 @@
 		<MenAtArm type="monaspa" key="att_alan_sarmatian_cataphracts_infantry_destroyer_tier_5" max="CAVALRY"></MenAtArm>
 		<MenAtArm type="mountaineer" key="KOK_axe_warriors" max="INFANTRY"></MenAtArm>
 		<MenAtArm type="mubarizun" key="mubs_mubarizun" max="INFANTRY"></MenAtArm>
-		<MenAtArm type="mulathamun" key="mubs_mulathanum" max="CAVALRY"></MenAtArm>
+		<MenAtArm type="mulaththamun" key="mubs_mulathanum" max="CAVALRY"></MenAtArm>
 		<MenAtArm type="archers_of_the_nile" key="att_des_es_marz_archers" max="RANGED"></MenAtArm>
 		<MenAtArm type="palace_guard" key="KOK_cha_gen_spear" max="INFANTRY"></MenAtArm>
 		<MenAtArm type="picchieri" key="cha_gen_armoured_spear" max="INFANTRY"></MenAtArm>
@@ -90,6 +103,18 @@
 		<MenAtArm type="mangudai" key="att_nom_steppe_mounted_tribespeople" max="CAVALRY"></MenAtArm>
 		<MenAtArm type="cataphract_archers" key="kok_oq_horse_archers" max="CAVALRY"></MenAtArm>
 		<MenAtArm type="maturkan_warriors" key="att_nom_uar_archers" max="CAVALRY"></MenAtArm>
+		<MenAtArm type="shenbigong" key="att_rom_cheiroballistra" max="RANGED"></MenAtArm> <!--these are cho-ku-nu-->
+		<MenAtArm type="pikemen_militia" key="att_nom_uar_warriors" max="INFANTRY"></MenAtArm> 
+		<MenAtArm type="emishi_horse_archers" key="att_nom_unnigarde" max="CAVALRY"></MenAtArm> 
+		<MenAtArm type="japanese_horse_archers" key="HEP_spet_xyon_noble_horse_archers" max="CAVALRY"></MenAtArm>
+		<MenAtArm type="warrior_monks" key="KOK_cha_gen_spear" max="INFANTRY"></MenAtArm> 
+		<MenAtArm type="fire_lancers" key="KOK_cha_gen_archers" max="RANGED"></MenAtArm> 
+		<MenAtArm type="gakgung_archers" key="att_nom_uar_archers" max="RANGED"></MenAtArm> 
+		<MenAtArm type="pesilat_warriors" key="att_ger_elite_agathyrsi_warriors" max="INFANTRY"></MenAtArm> 
+		<MenAtArm type="samurai" key="att_nom_hunnic_devil_cavalry" max="CAVALRY"></MenAtArm> 
+		<MenAtArm type="zhanmadao_infantry" key="KOK_cha_gen_spear" max="INFANTRY"></MenAtArm> 
+		<MenAtArm type="tiefutu" key="att_nom_noble_steppe_cataphracts" max="CAVALRY"></MenAtArm> 
+		<MenAtArm type="burenjia" key="KOK_cha_gen_armoured_sword" max="INFANTRY"></MenAtArm> 
 		
 		<MenAtArm type="accolade_maa_elephantiers" key="att_est_indian_elephants" max="CAVALRY"></MenAtArm>
 		<MenAtArm type="accolade_maa_horse_archers" key="cha_avar_noble_archers" max="CAVALRY"></MenAtArm>
@@ -101,7 +126,8 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_gen_skirm" max="INFANTRY"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_gen_armoured_sword" max="INFANTRY"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="att_rom_elite_ballistarii" max="INFANTRY"></MenAtArm>
-
+		<MenAtArm type="accolade_maa_handgunners" key="att_rom_elite_ballistarii" max="RANGED"></MenAtArm>
+	
 	</Faction>
 
 	<Faction name="West African">
@@ -140,6 +166,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_des_es_afar_raidmasters"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_des_es_behers_chosen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+	
+		<MenAtArm type="onager" key="att_des_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Bedouin">
@@ -180,6 +211,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mubs_rijal"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_des_es_noble_al_rahrain"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="att_des_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Abbasid">
@@ -221,6 +257,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mubs_rijal"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_des_es_noble_al_rahrain"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="cha_mus_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_mus_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_mus_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_mus_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Egyptian">
@@ -261,6 +302,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mubs_rijal"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_des_es_athars_chosen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="cha_mus_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_mus_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_mus_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_mus_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Himyarite">
@@ -301,6 +347,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_des_es_zealot_sicarius"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_des_es_khahyahlim"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="att_merc_est_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="South Arabian">
@@ -341,6 +392,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_des_es_tanukhid_ambushers"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_des_es_athars_chosen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="att_des_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Andalusian">
@@ -383,6 +439,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_mus_slingers"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_des_es_athars_chosen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+		
+		<MenAtArm type="onager" key="cha_mus_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_mus_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_mus_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_mus_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Maghrebi">
@@ -423,6 +484,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mubs_rijal"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_des_es_noble_al_rahrain"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+		
+		<MenAtArm type="onager" key="cha_mus_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_mus_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_mus_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_mus_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Baltic">
@@ -451,6 +517,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="BAL_woodsmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="BAL_kursi_retinue"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+		
+		<MenAtArm type="onager" key="att_slav_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_ger_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_ger_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_ger_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Finnic">
@@ -479,6 +550,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_slav_noble_skirmishers"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_slav_horse_butchers"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+		
+		<MenAtArm type="onager" key="att_slav_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_ger_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_ger_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_ger_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Baranis">
@@ -520,6 +596,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mubs_rijal"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_mus_andalusian_warriors"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="att_des_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_mus_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_mus_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_mus_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Butr">
@@ -561,6 +642,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mubs_rijal"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_mus_andalusian_warriors"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="att_des_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Sahelian">
@@ -600,6 +686,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_des_es_rumha_warriors"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_des_es_noble_al_rahrain"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="att_des_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Breton">
@@ -627,6 +718,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_vik_skirm"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_fra_mounted_swordsmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="cha_gen_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_gen_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_gen_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_gen_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Brythonic">
@@ -654,6 +750,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_cel_kerns"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_cel_fianna"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="cha_cel_pictish_crossbowmen"></MenAtArm>
+
+		<MenAtArm type="onager" key="cha_cel_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_gen_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_gen_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_gen_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Gaelic">
@@ -681,6 +782,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_cel_axemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_cel_fianna"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="cha_cel_pictish_crossbowmen"></MenAtArm>
+		
+		<MenAtArm type="onager" key="cha_cel_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_gen_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_gen_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_gen_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Irish">
@@ -708,6 +814,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_cel_axemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_cel_kings_warband"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="cha_cel_pictish_crossbowmen"></MenAtArm>
+		
+		<MenAtArm type="onager" key="cha_cel_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_gen_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_gen_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_gen_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Burmese">
@@ -744,6 +855,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_wh_khingilas_khandas"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="KOK_cha_gen_armoured_sword"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="cha_avar_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_nom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_nom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_nom_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Alan">
@@ -782,6 +898,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_alan_sarmatian_band"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_ger_agathyrsi_warriors"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="att_alan_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_ger_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_ger_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_ger_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Armenian">
@@ -821,6 +942,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="ARM_light_halberdiers"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="ARM_halberdiers"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="att_rom_elite_ballistarii"></MenAtArm>
+
+		<MenAtArm type="onager" key="att_est_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_est_sassanid_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_est_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_est_sassanid_onager_large" max="RANGED"></MenAtArm>
 	</Faction>	
 
 	<Faction name="Georgian">
@@ -857,6 +983,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="ARM_light_halberdiers"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="ARM_halberdiers"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="att_rom_elite_ballistarii"></MenAtArm>
+
+		<MenAtArm type="onager" key="att_merc_est_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="MERC_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="MERC_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="MERC_large_onager" max="RANGED"></MenAtArm>
 	</Faction>	
 	
 	<Faction name="Byzantine">
@@ -895,6 +1026,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_rom_exploratores"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_rom_hetaireia_guards"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="att_rom_elite_ballistarii"></MenAtArm>
+
+		<MenAtArm type="onager" key="att_rom_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_rom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_rom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_rom_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Syriac">
@@ -934,6 +1070,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_rom_exculcatores"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="ERE_bucellarii_pedites"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="att_rom_elite_ballistarii"></MenAtArm>
+
+		<MenAtArm type="onager" key="att_merc_est_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_rom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_rom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_rom_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Assyrian">
@@ -974,6 +1115,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_merc_est_kurdish_javelinmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_est_elite_dailamite_infantry"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="att_rom_elite_ballistarii"></MenAtArm>
+
+		<MenAtArm type="onager" key="att_merc_est_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_est_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_est_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_est_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 		
 	<Faction name="Saxon">
@@ -1001,6 +1147,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_sax_noble_javelinmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_sax_sword_veterans"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+		
+		<MenAtArm type="onager" key="cha_sax_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Franconian">
@@ -1028,6 +1179,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_sax_noble_javelinmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_sax_sword_veterans"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="cha_fra_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Lombard">
@@ -1055,6 +1211,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_lom_skirm"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_lom_gastald_swordsmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="cha_lom_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_lom_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_lom_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_lom_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Tibetan">
@@ -1091,6 +1252,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_nom_steppe_warriors"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="KOK_axe_warriors"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="cha_avar_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_nom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_nom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_nom_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Indian">
@@ -1129,6 +1295,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_des_es_rumha_warriors"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_des_es_athars_chosen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="att_merc_est_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Horn African">
@@ -1169,6 +1340,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_des_es_afar_raidmasters"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_des_kushite_shotelai"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="att_des_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Coptic">
@@ -1207,6 +1383,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_des_es_afar_swordsmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_des_es_masqal_spearmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="att_des_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_des_onager_bastion" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Rus">
@@ -1234,6 +1415,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_slav_noble_skirmishers"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_slav_axe_warriors"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+		
+		<MenAtArm type="onager" key="att_slav_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_ger_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_ger_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_ger_onager_large" max="RANGED"></MenAtArm>
 	</Faction>	
 
 	<Faction name="Frankish">
@@ -1261,6 +1447,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_fra_skirm"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_fra_mounted_swordsmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="cha_fra_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Norman">
@@ -1288,6 +1479,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_vik_skirm"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_fra_mounted_swordsmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="cha_fra_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Iberian">
@@ -1315,6 +1511,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_spa_noble_skirm"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_spa_royal_guardsmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="cha_spa_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_spa_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_spa_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_spa_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Persian">
@@ -1355,6 +1556,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_est_kurdish_javelinmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="SAS_soghdian_footmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+		
+		<MenAtArm type="onager" key="att_est_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_est_sassanid_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_est_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_est_sassanid_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Daylamite">
@@ -1394,6 +1600,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_est_armenian_slingers"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_est_royal_persian_archers"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="att_est_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_est_sassanid_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_est_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_est_sassanid_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Kurdish">
@@ -1434,6 +1645,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_est_armenian_slingers"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_est_elite_dailamite_infantry"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="att_est_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_est_sassanid_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_est_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_est_sassanid_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Khorasani">
@@ -1474,6 +1690,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_est_persian_brigade"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_est_elite_dailamite_infantry"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+		
+		<MenAtArm type="onager" key="att_est_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_est_sassanid_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_est_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_est_sassanid_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Turkic">
@@ -1521,6 +1742,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_nom_steppe_warriors"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="KOK_axe_warriors"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+		
+		<MenAtArm type="onager" key="cha_avar_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_nom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_nom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_nom_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Eastern Steppe">
@@ -1568,6 +1794,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_nom_steppe_warriors"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_wh_khingilas_khandas"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="cha_avar_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_nom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_nom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_nom_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Western Steppe">
@@ -1613,6 +1844,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_nom_hunnic_dismounted_warband"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_avar_noble_sword"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="att_nom_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_nom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_nom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_nom_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Crimean Steppe">
@@ -1658,6 +1894,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_slav_ambushers"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_avar_noble_sword"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="cha_avar_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_nom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_nom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_nom_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Bolghar">
@@ -1703,6 +1944,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_nom_bosphoran_warriors"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="NOM_axes"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="att_rom_elite_ballistarii"></MenAtArm>
+
+		<MenAtArm type="onager" key="att_nom_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_mus_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_mus_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_mus_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Bulgarian">
@@ -1742,6 +1988,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="LOM_fara_skirm"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_ger_scaled_clubmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="att_rom_elite_ballistarii"></MenAtArm>
+
+		<MenAtArm type="onager" key="att_ger_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_ger_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_ger_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_ger_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Hungarian">
@@ -1776,6 +2027,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_slav_ambushers"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_avar_noble_sword"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="cha_slav_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_lom_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_lom_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_lom_large_onager" max="RANGED"></MenAtArm>
 	</Faction>	
 	
 	<Faction name="Hephthalite">
@@ -1823,6 +2079,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_est_armenian_slingers"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_est_sogdian_warriors"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+		
+		<MenAtArm type="onager" key="att_merc_est_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_est_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_est_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_est_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Indo Persian">
@@ -1862,6 +2123,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_est_kurdish_javelinmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_est_elite_dailamite_infantry"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="att_merc_est_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_est_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_est_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_est_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Papal">
@@ -1889,6 +2155,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_lom_skirm"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_pap_guardsmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="att_rom_elite_ballistarii"></MenAtArm>
+
+		<MenAtArm type="onager" key="cha_gen_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_gen_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_gen_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_gen_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Viking">
@@ -1916,6 +2187,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_vik_skirm"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_vik_berserkers"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="cha_vik_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_gen_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_gen_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_gen_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Slavic">
@@ -1944,6 +2220,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="REB_dediticii"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_slav_prvaci"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="cha_slav_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_lom_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_lom_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_lom_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Permian">
@@ -1980,6 +2261,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_slav_noble_skirmishers"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="NOM_axes"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+
+		<MenAtArm type="onager" key="att_nom_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_nom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_nom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_nom_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Anglo Saxon">
@@ -2009,6 +2295,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_eng_fyrd_axemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_eng_royal_thegns"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="cha_cel_pictish_crossbowmen"></MenAtArm>
+
+		<MenAtArm type="onager" key="cha_eng_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="English">
@@ -2038,6 +2329,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_eng_fyrd_javelinmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_eng_royal_thegns"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="cha_cel_pictish_crossbowmen"></MenAtArm>
+	
+		<MenAtArm type="onager" key="cha_eng_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Scots">
@@ -2067,6 +2363,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_cel_gaillmhigh"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_cel_fianna"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="cha_cel_pictish_crossbowmen"></MenAtArm>
+
+		<MenAtArm type="onager" key="cha_cel_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_cel_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_cel_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_cel_onager_bastion" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Wendish">
@@ -2097,6 +2398,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_ger_germanic_warband"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_nor_huscarls"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+	
+		<MenAtArm type="onager" key="att_slav_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_ger_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_ger_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_ger_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Norse Gael">
@@ -2125,6 +2431,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_cel_axemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_vik_berserkers"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+	
+		<MenAtArm type="onager" key="cha_cel_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_cel_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_cel_onager_bastion" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_cel_onager_bastion" max="RANGED"></MenAtArm>
 	</Faction>	
 
 	<Faction name="Danelander">
@@ -2153,6 +2464,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_cel_axemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_vik_berserkers"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+	
+		<MenAtArm type="onager" key="cha_eng_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
 	</Faction>	
 
 	<Faction name="Outremer">
@@ -2186,6 +2502,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_fra_skirm"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_fra_mounted_swordsmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+	
+		<MenAtArm type="onager" key="cha_fra_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
 	</Faction>	
 
 	<Faction name="Teutonic">
@@ -2213,6 +2534,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_sax_noble_javelinmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="BAL_kursi_retinue"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+	
+		<MenAtArm type="onager" key="cha_sax_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_fra_large_onager" max="RANGED"></MenAtArm>
 	</Faction>	
 	
 	<Faction name="Gothic">
@@ -2244,6 +2570,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_ger_thracian_warriors"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="ERE_bucellarii_pedites"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="att_rom_elite_ballistarii"></MenAtArm>
+	
+		<MenAtArm type="onager" key="att_ger_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_ger_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_ger_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_ger_onager_large" max="RANGED"></MenAtArm>
 	</Faction>	
 	
 	<Faction name="Dalmatian">
@@ -2271,6 +2602,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_lom_skirm"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_lom_gastald_swordsmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+	
+		<MenAtArm type="onager" key="cha_slav_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_lom_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_lom_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_lom_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Romano-Briton">
@@ -2302,6 +2638,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="BRIT_exculcatores"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="ERE_bucellarii_pedites"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="att_rom_elite_ballistarii"></MenAtArm>
+	
+		<MenAtArm type="onager" key="att_rom_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_rom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_rom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_rom_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Roman African">
@@ -2341,6 +2682,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_des_desert_palatina_defectors"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="ERE_dismounted_excubitores_2"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="att_rom_ravenna_elite_ballistarii"></MenAtArm>
+	
+		<MenAtArm type="onager" key="att_des_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_rom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_rom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_rom_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Sardinian">
@@ -2368,6 +2714,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_spa_noble_skirm"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_spa_royal_guardsmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="att_rom_ravenna_elite_ballistarii"></MenAtArm>
+	
+		<MenAtArm type="onager" key="cha_byz_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_byz_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_byz_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_byz_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Roman">
@@ -2395,6 +2746,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_rom_praeventores"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="ERE_dismounted_excubitores_2"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="att_rom_ravenna_elite_ballistarii"></MenAtArm>
+	
+		<MenAtArm type="onager" key="att_rom_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="att_rom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="att_rom_onager_large" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="att_rom_onager_large" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Copt">
@@ -2433,6 +2789,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="att_des_es_spice_guard"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_des_es_sahnegohrim"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="DEFAULT"></MenAtArm>
+		
+		<MenAtArm type="onager" key="att_merc_est_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="MERC_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="MERC_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="MERC_large_onager" max="RANGED"></MenAtArm>
 	</Faction>		
 	
 	<Faction name="Basque">
@@ -2463,6 +2824,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="bas_ambushers"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="att_ger_burgundian_guard"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="cha_cel_pictish_crossbowmen"></MenAtArm>
+		
+		<MenAtArm type="onager" key="att_cel_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_spa_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_spa_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_spa_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="New English">
@@ -2510,6 +2876,11 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="cha_eng_fyrd_javelinmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="cha_avar_noble_sword"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="cha_cel_pictish_crossbowmen"></MenAtArm>
+		
+		<MenAtArm type="onager" key="cha_eng_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="cha_gen_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="cha_gen_large_onager" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="cha_gen_large_onager" max="RANGED"></MenAtArm>
 	</Faction>
 
 </FactionsGroups>

@@ -21,6 +21,8 @@
 		<MenAtArm type="crossbowmen" key="mk_merc_gen_t3_genoese_crossbowmen" max="RANGED"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_merc_ger_t3_cavalry" max="CAVALRY"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_merc_eur_t3_knights" max="CAVALRY"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_cas_t3_handgunners" max="RANGED"></MenAtArm>
+		
 		<MenAtArm type="house_guard" key="mk_merc_swi_t3_swiss_halberdiers" max="INFANTRY"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_templar_knights_dismounted" max="INFANTRY"></MenAtArm>
 		<MenAtArm type="jomsviking_pirates" key="mk_lit_t3_axemen" max="INFANTRY"></MenAtArm>
@@ -29,7 +31,16 @@
 		<MenAtArm type="maa_poachers" key="mk_merc_wel_t3_longbowmen" max="RANGED"></MenAtArm>
 		<MenAtArm type="maa_marauders" key="mk_merc_ita_t3_berrovieri" max="CAVALRY"></MenAtArm>
 		<MenAtArm type="maa_thieves" key="mk_merc_ita_t3_ronconieri" max="INFANTRY"></MenAtArm>		
-
+		
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
+		<MenAtArm type="ballista" key="mk_mon_t1_ballista_med" max="RANGED"></MenAtArm>
+		<MenAtArm type="ballista_elephant" key="mk_ghu_t3_hathnal_cannon_elephants" max="RANGED"></MenAtArm>  
+		<MenAtArm type="rocket_carts" key="mk_mon_t2_rocket" max="RANGED"></MenAtArm> 
+		<MenAtArm type="cannon" key="mk_mon_t3_great_bombard" max="RANGED"></MenAtArm> 
+		
 		<MenAtArm type="caballero" key="mk_cas_t3_jinetes" max="CAVALRY"></MenAtArm>
 		<MenAtArm type="camel_rider" key="mk_abb_t3_bedouin_camel_riders" max="CAVALRY"></MenAtArm>
 		<MenAtArm type="hobelar" key="mk_eng_t3_hobilars" max="CAVALRY"></MenAtArm>
@@ -56,7 +67,7 @@
 		<MenAtArm type="monaspa" key="mk_georg_t2_monaspa_lancers" max="CAVALRY"></MenAtArm>
 		<MenAtArm type="mountaineer" key="mk_volga_t3_archer_halberdier" max="INFANTRY"></MenAtArm>
 		<MenAtArm type="mubarizun" key="mk_abb_t3_dismounted_mamluks" max="INFANTRY"></MenAtArm>
-		<MenAtArm type="mulathamun" key="mk_alm_t3_shaykh_al_ghuzat" max="CAVALRY"></MenAtArm>
+		<MenAtArm type="mulaththamun" key="mk_alm_t3_shaykh_al_ghuzat" max="CAVALRY"></MenAtArm>
 		<MenAtArm type="archers_of_the_nile" key="mk_mak_t3_nubian_archers" max="RANGED"></MenAtArm>
 		<MenAtArm type="palace_guard" key="mk_ghu_t3_royal_paiks" max="INFANTRY"></MenAtArm>
 		<MenAtArm type="picchieri" key="mk_gen_t3_pikemen" max="INFANTRY"></MenAtArm>
@@ -90,7 +101,19 @@
 		<MenAtArm type="mangudai" key="mk_gold_t3_khisigten" max="CAVALRY"></MenAtArm>
 		<MenAtArm type="cataphract_archers" key="mk_rum_t3_kapikulu_ulufecis" max="CAVALRY"></MenAtArm>
 		<MenAtArm type="maturkan_warriors" key="mk_volga_t3_tribal_noble_archers" max="CAVALRY"></MenAtArm>
-				
+		<MenAtArm type="shenbigong" key="mk_ilkhan_t3_tserig_crossbowmen" max="RANGED"></MenAtArm>  <!--these are cho-ku-nu-->
+		<MenAtArm type="pikemen_militia" key="mk_cuman_t3_light_spearmen" max="INFANTRY"></MenAtArm> 
+		<MenAtArm type="emishi_horse_archers" key="mk_gold_t3_mongol_horse_archers" max="CAVALRY"></MenAtArm> 
+		<MenAtArm type="japanese_horse_archers" key="mk_gold_t3_khorchi_khisigten" max="CAVALRY"></MenAtArm> 
+		<MenAtArm type="warrior_monks" key="mk_ghu_t3_paik_spearmen" max="INFANTRY"></MenAtArm> 
+		<MenAtArm type="fire_lancers" key="mk_mon_t1_fire_lance_infantry" max="RANGED"></MenAtArm> 
+		<MenAtArm type="gakgung_archers" key="mk_volga_t3_tribal_noble_archers" max="RANGED"></MenAtArm> 
+		<MenAtArm type="pesilat_warriors" key="earl_khw_assassin" max="INFANTRY"></MenAtArm> 
+		<MenAtArm type="samurai" key="mk_mon_t3_golden_keshiq_lancers" max="CAVALRY"></MenAtArm> 
+		<MenAtArm type="zhanmadao_infantry" key="mk_khw_t3_qolloghchi_pasdaran" max="INFANTRY"></MenAtArm> 
+		<MenAtArm type="tiefutu" key="mk_gold_t3_baatar_khisigten" max="CAVALRY"></MenAtArm> 
+		<MenAtArm type="burenjia" key="mk_cuman_t3_dismounted_nogers" max="INFANTRY"></MenAtArm> 
+		
 		<MenAtArm type="accolade_maa_elephantiers" key="mk_ghu_t3_war_elephants" max="CAVALRY"></MenAtArm>
 		<MenAtArm type="accolade_maa_horse_archers" key="mk_gold_t3_khorchi_khisigten" max="CAVALRY"></MenAtArm>
 		<MenAtArm type="accolade_maa_cameliers" key="mk_alm_t3_tuareg_camel_riders" max="CAVALRY"></MenAtArm>
@@ -101,7 +124,8 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_ara_t3_almogavars" max="INFANTRY"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_rus_t3_guard_axemen" max="INFANTRY"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen" max="INFANTRY"></MenAtArm>
-
+		<MenAtArm type="accolade_maa_handgunners" key="earl_cas_t3_arquebusier" max="RANGED"></MenAtArm>
+		
 	</Faction>
 
 	<Faction name="West African">
@@ -119,6 +143,7 @@
 		<MenAtArm type="crossbowmen" key="mk_ayy_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_mak_t3_nubian_light_cavalry"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_mak_t3_nubian_heavy_cavalry"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_mar_t3_drawi_tribal_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_mak_t3_nubian_footmen"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_zag_t3_jan_infantry"></MenAtArm>
 		
@@ -138,6 +163,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_zag_t3_jan_infantry"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_mak_t3_nubian_footmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_ayy_t3_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_alm_t4_abid_al_makhzan_handgun" max="RANGED"></MenAtArm>
+						
+		<MenAtArm type="onager" key="mk_afr_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_afr_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_afr_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Bedouin">
@@ -155,6 +186,7 @@
 		<MenAtArm type="crossbowmen" key="mk_abb_t3_jund_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_abb_t3_fursan_ajnad"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_abb_t3_fursan_iqtaiyyah"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_ayy_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 		
@@ -177,6 +209,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_abb_t3_handgunners"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_ayy_t3_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_ayy_t3_cannon_camel" max="RANGED"></MenAtArm>
+					
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mus_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Egyptian">
@@ -195,6 +233,7 @@
 		<MenAtArm type="crossbowmen" key="mk_ayy_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_ayy_t3_amirs_mamluk"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_ayy_t3_mamluk_lancers"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_ayy_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 		
@@ -217,6 +256,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="earl_ayy_t3_arquebusier"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_aor_andal_t3_heavy_andalusian_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_ayy_t3_arquebusier" max="RANGED"></MenAtArm>
+							
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mus_t3_culverin" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Maghrebi">
@@ -235,6 +280,7 @@
 		<MenAtArm type="crossbowmen" key="mk_alm_t3_jund_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_gran_t3_granadine_jund_cavalry"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_haf_t3_nasara_al_rabat"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_haf_t3_ifriqyan_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="earl_haf_t3_tunisian_warrior"></MenAtArm>
 		
@@ -257,6 +303,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_alm_t3_ghuzat"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="earl_gran_t3_dismounted_malughun"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_ara_t3_catalan_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_haf_t3_arquebusier" max="RANGED"></MenAtArm>
+							
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mus_t3_culverin" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Abbasid">
@@ -275,6 +327,7 @@
 		<MenAtArm type="crossbowmen" key="mk_abb_t3_jund_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_abb_t3_fursan_ajnad"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_abb_t3_mamluk_lancers"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_abb_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="earl_abb_t4_caliph_handgun"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 		
@@ -297,6 +350,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="earl_abb_t3_arquebusier"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_aor_andal_t3_heavy_andalusian_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_abb_t3_arquebusier" max="RANGED"></MenAtArm>
+									
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mus_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Baltic">
@@ -314,6 +373,7 @@
 		<MenAtArm type="crossbowmen" key="mk_merc_boh_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_lit_t3_skirmisher_cavalry"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_lit_t3_ducal_heavy_cavalry"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_boh_t3_hussite_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_lit_t3_ducal_heavy_spearmen"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_lit_t3_dismounted_bajorija"></MenAtArm>
 		
@@ -333,6 +393,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_lit_t3_axemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_lit_t3_dismounted_bajorija"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_lit_t3_ducal_heavy_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_pol_t3_handgunners" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_rus_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Lithuanian">
@@ -351,6 +417,7 @@
 		<MenAtArm type="crossbowmen" key="mk_lit_t3_ducal_heavy_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_lit_t3_ducal_heavy_cavalry"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_lit_t3_bajorija"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_boh_t3_hussite_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_lit_t3_ducal_heavy_spearmen"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_lit_t3_dismounted_bajorija"></MenAtArm>
 		
@@ -370,6 +437,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_merc_boh_t3_flailmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_lit_t3_dismounted_bajorija"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_lit_t3_ducal_heavy_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_pol_t3_handgunners" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Prussian">
@@ -387,6 +460,7 @@
 		<MenAtArm type="crossbowmen" key="mk_teu_t3_pavise_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_teu_t3_sudovian_skirmisher_cavalry"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_teu_t3_mitbruder"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_teu_t3_pavise_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_lit_t3_ducal_heavy_spearmen"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_lit_t3_dismounted_bajorija"></MenAtArm>
 		
@@ -406,6 +480,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_lit_t3_axemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_lit_t3_dismounted_bajorija"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_lit_t3_ducal_heavy_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_teu_t3_pavise_handgunners" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Estonian">
@@ -423,6 +503,7 @@
 		<MenAtArm type="crossbowmen" key="mk_dan_t3_pavise_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_teu_t3_halbbruder"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_lit_t3_smolensk_senior_boyars"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_dan_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_dan_t3_halberdiers"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_lit_t3_dismounted_bajorija"></MenAtArm>
 		
@@ -442,6 +523,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_teu_t3_pogesanian_raiders"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_lit_t3_dismounted_bajorija"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_boh_t3_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_teu_t3_pavise_handgunners" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Baltic Finnic">
@@ -459,6 +546,7 @@
 		<MenAtArm type="crossbowmen" key="mk_nor_t2_crossbow_vaepnere"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_volga_t3_chirmesh_lancers"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_volga_t3_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_volga_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_lit_t3_dismounted_bajorija"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_lit_t3_dismounted_bajorija"></MenAtArm>
 		
@@ -478,6 +566,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_lit_t2_skirmishers"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_lit_t3_dismounted_bajorija"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_boh_t3_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_volga_t3_arquebusier" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Baranis">
@@ -496,6 +590,7 @@
 		<MenAtArm type="crossbowmen" key="mk_alm_t3_jund_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_gran_t3_granadine_jund_cavalry"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_alm_t3_jund_al_nasara"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_mar_t3_moroccan_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="earl_haf_t3_tunisian_warrior"></MenAtArm>
 		
@@ -518,6 +613,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="earl_mar_t3_arquebusier"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="earl_gran_t3_dismounted_malughun"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_gran_t3_heavy_andalusian_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_mar_t3_arquebusier" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mus_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Butr">
@@ -536,6 +637,7 @@
 		<MenAtArm type="crossbowmen" key="mk_alm_t3_jund_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_alm_t3_arab_horsemen"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="earl_haf_t3_armored_camel_cavalry"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_mar_t3_moroccan_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="earl_haf_t3_tunisian_warrior"></MenAtArm>
 		
@@ -558,6 +660,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_mar_t3_drawi_tribal_gunners"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_gran_t3_heavy_andalusian_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_alm_t3_ghuzz_horse_archers" max="RANGED"></MenAtArm>
+			
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mus_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Sahelian">
@@ -575,6 +683,7 @@
 		<MenAtArm type="crossbowmen" key="mk_alm_t3_jund_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_mak_t3_nubian_light_cavalry"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_mak_t3_nubian_heavy_cavalry"></MenAtArm>
+		<MenAtArm type="handgunners" key="earl_alm_t4_abid_al_makhzan_handgun" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="earl_mar_t3_tuareg_warrior"></MenAtArm>
 		
@@ -597,6 +706,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="earl_alm_t4_abid_al_makhzan_handgun"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_gran_t3_heavy_andalusian_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_mar_t3_moroccan_camel_handgunners" max="RANGED"></MenAtArm>
+				
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mus_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Breton">
@@ -614,6 +729,7 @@
 		<MenAtArm type="crossbowmen" key="mk_fre_t3_arbaletriers"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_nap_t3_mounted_serjeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_merc_eur_t3_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_nap_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_bur_t3_ducal_household_guisarmier"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_hospitaller_knights_dismounted"></MenAtArm>
 		
@@ -624,6 +740,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_bur_t3_levy_macemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_bur_t3_dismounted_chevaliers"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_nap_t3_arquebusier" max="RANGED"></MenAtArm>
+	
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t3_culverin" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Welsh">
@@ -642,6 +764,7 @@
 		<MenAtArm type="crossbowmen" key="mk_fla_t3_sergeant_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_wel_t3_mounted_sergeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_merc_eur_t3_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_wel_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_wel_t3_dismounted_maa"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_hospitaller_knights_dismounted"></MenAtArm>
 
@@ -655,6 +778,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_wel_t3_arquebusier"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_wel_t3_dismounted_maa"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_wel_t3_arquebusier" max="RANGED"></MenAtArm>
+			
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 
 	<Faction name="Scottish">
@@ -672,6 +801,7 @@
 		<MenAtArm type="crossbowmen" key="mk_fla_t3_sergeant_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_fla_t3_mounted_sergeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_fla_t3_maa"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_fla_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_fla_t3_guild_swordsmen"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_templar_knights_dismounted"></MenAtArm>
 
@@ -684,6 +814,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_fla_t3_gunners"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_fla_t3_guild_swordsmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_fla_t3_arquebusier" max="RANGED"></MenAtArm>
+				
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 
 	<Faction name="Burmese">
@@ -701,6 +837,7 @@
 		<MenAtArm type="crossbowmen" key="mk_ilkhan_t3_tserig_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_gold_t3_khisigten"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_ilkhan_t3_nokor"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_cuman_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_ilkhan_t3_dismounted_nokor"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_ghu_t3_royal_paiks"></MenAtArm>
 
@@ -723,6 +860,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_cuman_t1_skirmishers"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_ilkhan_t3_dismounted_nokor"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_cuman_t3_arquebusier" max="RANGED"></MenAtArm>
+	
+		<MenAtArm type="onager" key="mk_mon_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mon_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mon_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mon_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 	
 	<Faction name="Alan">
@@ -740,6 +883,7 @@
 		<MenAtArm type="crossbowmen" key="mk_georg_t3_svanian_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_georg_t3_msakhureuli_cavalry"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_georg_t3_aznauri_lancers"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_georg_t3_metsikhovne_handguner" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_georg_t3_tadzreuli_swordsmen"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_tre_t3_varangoi"></MenAtArm>
 
@@ -759,6 +903,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_georg_t3_metsikhovne_handguner"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_georg_t3_tadzreuli_swordsmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_georg_t3_arquebusier" max="RANGED"></MenAtArm>
+
+		<MenAtArm type="onager" key="mk_byz_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_byz_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_byz_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_byz_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 
 	<Faction name="Armenian">
@@ -777,6 +927,7 @@
 		<MenAtArm type="crossbowmen" key="mk_arm_t3_italian_colonials"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_arm_t3_turcopoles"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_arm_t3_dziaworner"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_arm_t3_bourdjes_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_arm_t3_dismounted_archer_dziaworner"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_arm_t3_dismounted_dziaworner"></MenAtArm>
 
@@ -796,6 +947,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_arm_t3_bourdjes_handgunners"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_arm_t3_dismounted_dziaworner"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_arm_t3_italian_colonial_cavalry"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_arm_t3_handgunners" max="RANGED"></MenAtArm>
+
+		<MenAtArm type="onager" key="mk_byz_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_byz_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_byz_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_byz_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 
 	<Faction name="Georgian">
@@ -813,6 +970,7 @@
 		<MenAtArm type="crossbowmen" key="mk_georg_t3_svanian_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_georg_t3_msakhureuli_cavalry"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_georg_t3_aznauri_lancers"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_georg_t3_metsikhovne_handguner" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_georg_t3_tadzreuli_swordsmen"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_georg_t3_tadzreuli_swordsmen"></MenAtArm>
 
@@ -832,6 +990,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_georg_t3_arquebusier"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_georg_t3_tadzreuli_swordsmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_georg_t3_arquebusier" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_byz_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_byz_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_byz_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_byz_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 
 	<Faction name="Byzantine">
@@ -850,6 +1014,7 @@
 		<MenAtArm type="crossbowmen" key="mk_nic_t3_tzangratoroi"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_nic_t3_megaloallagitai"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_tre_t3_stratiotes"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_nic_t3_skopetastai" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_nic_t3_kretikai"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_tre_t3_varangoi"></MenAtArm>
 		
@@ -869,6 +1034,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_nic_t3_skopetastai"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_nic_t3_katelanoi"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_nic_t3_italikon"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_nic_t3_arquebusier" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_byz_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_byz_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_byz_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_byz_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 
 	<Faction name="Syriac">
@@ -886,6 +1057,7 @@
 		<MenAtArm type="crossbowmen" key="mk_rum_t3_martolos_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_arm_t3_aspatakner"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_rum_t3_rumeli_timarli_sipahis"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_arm_t3_bourdjes_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_georg_t3_tadzreuli_swordsmen"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_tre_t3_varangoi"></MenAtArm>
 		
@@ -905,6 +1077,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_khw_t3_rayat_skirmishers"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_georg_t3_tadzreuli_swordsmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_arm_t3_italian_colonials"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_arm_t3_handgunners" max="RANGED"></MenAtArm>
+	
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mus_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 
 	<Faction name="Bavarian">
@@ -922,6 +1100,7 @@
 		<MenAtArm type="crossbowmen" key="mk_hre_t3_auszug_armbrustschutzen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_hre_t3_reisige"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_merc_ger_t3_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_merc_ger_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_tri_t3_dismounted_elector_guard"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_teu_t3_halbbruder_halberdiers"></MenAtArm>
 
@@ -932,6 +1111,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_merc_ger_t3_handgunners"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_hre_t3_dismounted_welsche_garde"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_hre_t3_landsknecht_handgunner" max="RANGED"></MenAtArm>
+	
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Brabantian">
@@ -949,6 +1134,7 @@
 		<MenAtArm type="crossbowmen" key="mk_brab_t3_pavise_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_brab_t3_mounted_sergeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_brab_t3_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_brab_t3_guild_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_brab_t3_dismounted_duke_guard"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_fla_t3_guild_swordsmen"></MenAtArm>
 
@@ -961,6 +1147,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_brab_t3_goedendag_militia"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_brab_t3_dismounted_knights"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_ger_t3_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_brab_t3_mushkert" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Franconian">
@@ -978,6 +1170,7 @@
 		<MenAtArm type="crossbowmen" key="mk_hre_t3_armbrustschutzen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_lor_t3_coutiliers"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_hre_t3_ritter"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_lor_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_hre_t3_dismounted_welsche_garde"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_hospitaller_knights_dismounted"></MenAtArm>
 		
@@ -988,6 +1181,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_lor_t3_sawell_de_mann"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_lor_t3_polearms"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_hre_t3_auszug_armbrustschutzen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_hre_t3_auszug_buchsenchutzen" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="German">
@@ -1005,6 +1204,7 @@
 		<MenAtArm type="crossbowmen" key="mk_hre_t3_armbrustschutzen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_hre_t3_reisige"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_hre_t3_ritter"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_hre_t3_buchsenschutzen" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_hre_t3_dismounted_welsche_garde"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_teu_t3_halbbruder_halberdiers"></MenAtArm>
 
@@ -1015,6 +1215,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_hre_t3_landsknecht_handgunner"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="earl_ger_t3_gothic_dismounted"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_hre_t3_auszug_armbrustschutzen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_hre_t3_auszug_buchsenchutzen" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Saxon">
@@ -1032,6 +1238,7 @@
 		<MenAtArm type="crossbowmen" key="mk_hre_t3_armbrustschutzen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_hre_t3_reisige"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_hre_t3_ritter"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_merc_ger_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="earl_ger_t3_gothic_dismounted"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_teu_t3_halbbruder_halberdiers"></MenAtArm>
 
@@ -1042,6 +1249,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_brab_t3_goedendag_militia"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="earl_hre_t3_doppelsoldner_greatsword"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_hre_t3_auszug_armbrustschutzen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_hre_t3_auszug_buchsenchutzen" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Swabian">
@@ -1059,6 +1272,7 @@
 		<MenAtArm type="crossbowmen" key="mk_swi_t3_eidgenossen_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_hre_t3_reisige"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_hre_t3_sankt_georgenfahne"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_swi_t3_eidgenossen_handgunner" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_hre_t3_dismounted_welsche_garde"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_templar_knights_dismounted"></MenAtArm>
 
@@ -1069,6 +1283,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_brab_t3_goedendag_militia"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_swi_t3_dismounted_gewappnete"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_hre_t3_auszug_armbrustschutzen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_swi_t3_auszug_handgunner" max="RANGED"></MenAtArm>
+			
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Tibetan">
@@ -1086,6 +1306,7 @@
 		<MenAtArm type="crossbowmen" key="mk_ilkhan_t3_tserig_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_gold_t3_mongol_lancers"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_volga_t3_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_cuman_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_ilkhan_t3_tserig_swordsmen"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mon_t1_fire_lance_infantry"></MenAtArm>
 
@@ -1107,6 +1328,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_volga_t2_tribal_spearmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_ilkhan_t3_tserig_swordsmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_ilkhan_t3_tserig_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_cuman_t3_arquebusier" max="RANGED"></MenAtArm>
+					
+		<MenAtArm type="onager" key="mk_mon_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mon_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mon_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mon_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 
 	<Faction name="Indian">
@@ -1124,6 +1351,7 @@
 		<MenAtArm type="crossbowmen" key="mk_ghu_t3_nawak_infantry"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_ghu_t2_zamindars"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_ghu_t3_ashraf_sawaran"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_ghu_t3_tufangchiyan" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_ghu_t3_rajputs"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_ghu_t3_rajputs"></MenAtArm>
 
@@ -1146,6 +1374,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="earl_ghu_t3_arquebusier"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_ghu_t3_rajputs"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_ghu_t3_nawak_infantry"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_ghu_t4_zamburak" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mus_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 
 	<Faction name="Nubian">
@@ -1163,6 +1397,7 @@
 		<MenAtArm type="crossbowmen" key="mk_ayy_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_mak_t3_nubian_light_cavalry"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_mak_t3_nubian_heavy_cavalry"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_mar_t3_drawi_tribal_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_zag_t3_jan_infantry"></MenAtArm>
 
@@ -1188,6 +1423,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_zag_t3_jan_infantry"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_andal_t3_andalusian_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_alm_t4_abid_al_makhzan_handgun" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_afr_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_afr_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_afr_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 
 	<Faction name="Ethiopian">
@@ -1205,6 +1446,7 @@
 		<MenAtArm type="crossbowmen" key="mk_ayy_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_zag_t3_horse_sewa"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_zag_t3_gondarian_noble_sewa"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_mar_t3_drawi_tribal_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_arm_t3_dismounted_dziaworner"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_zag_t2_jan_infantry"></MenAtArm>
 
@@ -1224,6 +1466,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_zag_t3_jan_infantry"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_arm_t3_dismounted_dziaworner"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_andal_t3_andalusian_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_alm_t4_abid_al_makhzan_handgun" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_afr_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_afr_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_afr_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 
 	<Faction name="Rus">
@@ -1242,6 +1490,7 @@
 		<MenAtArm type="crossbowmen" key="mk_rus_t2_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_rus_t3_pomostniki_cavalry"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_rus_t3_vitjaz"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_rus_t3_arquebusier" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_rus_t3_guard_axemen"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_rus_t3_guard_axemen"></MenAtArm>
 
@@ -1261,6 +1510,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_rus_t3_gunner"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_rus_t3_guard_axemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_boh_t3_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_rus_t3_streltsy" max="RANGED"></MenAtArm>
+					
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_rus_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 
 	<Faction name="French">
@@ -1278,6 +1533,7 @@
 		<MenAtArm type="crossbowmen" key="mk_fre_t3_franc_archers_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_fre_t3_mounted_sergeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_fre_t3_chevaliers_mounted"></MenAtArm>
+		<MenAtArm type="handgunners" key="earl_fre_t3_levy_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_fre_t3_chevaliers_dismounted"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_templar_knights_dismounted"></MenAtArm>
 		
@@ -1288,6 +1544,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="earl_fre_t3_levy_handgunners"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_fre_t3_chevaliers_dismounted"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_fre_t3_arbaletriers"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_fre_t3_handgunners" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t3_culverin" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Occitan">
@@ -1306,6 +1568,7 @@
 		<MenAtArm type="crossbowmen" key="mk_tou_t3_arbaletriers"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_tou_t3_mounted_sergeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_tou_t3_chevaliers_mounted"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_tou_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_tou_t3_chevaliers_dismounted"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_templar_knights_dismounted"></MenAtArm>
 
@@ -1318,6 +1581,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_merc_ara_t3_almogavar"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_tou_t3_chevaliers_dismounted"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_tou_t3_arbaletriers_mounted"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_tou_t3_arquebusier" max="RANGED"></MenAtArm>
+				
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t3_culverin" max="RANGED"></MenAtArm>
 	</Faction>	
 	
 	<Faction name="Gaelic">
@@ -1335,6 +1604,7 @@
 		<MenAtArm type="crossbowmen" key="mk_brab_t2_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_wel_t2_mounted_sergeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_merc_eur_t2_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_fla_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_wel_t3_dismounted_maa"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_spanish_order_knights_dismounted"></MenAtArm>
 
@@ -1347,6 +1617,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_wel_t2_ysbeilwyr"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_brab_t3_dismounted_knights"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_fla_t3_gunners" max="RANGED"></MenAtArm>
+				
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 	
 	<Faction name="Irish">
@@ -1364,6 +1640,7 @@
 		<MenAtArm type="crossbowmen" key="mk_fla_t3_sergeant_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_wel_t2_mounted_sergeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_merc_eur_t2_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_fla_t3_gunners" max="RANGED"></MenAtArm>
 		<MenAtArm type="house_guard" key="mk_wel_t2_dismounted_marchog"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_spanish_order_knights_dismounted"></MenAtArm>
 
@@ -1376,6 +1653,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_wel_t2_ysbeilwyr"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_wel_t3_dismounted_maa"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_fla_t3_gunners" max="RANGED"></MenAtArm>
+			
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>			
 	
 	<Faction name="Horn African">
@@ -1394,6 +1677,7 @@
 		<MenAtArm type="crossbowmen" key="mk_ayy_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_merc_afr_t1_habesha_horsemen"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_mak_t3_arab_horsemen"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_mar_t3_drawi_tribal_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_zag_t2_jan_infantry"></MenAtArm>
 
@@ -1414,6 +1698,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_zag_t2_highland_angada"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_ayy_t3_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_alm_t4_abid_al_makhzan_handgun" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_afr_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_afr_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_afr_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 	
 	<Faction name="Andalusian">
@@ -1433,6 +1723,7 @@
 		<MenAtArm type="crossbowmen" key="mk_gran_t3_heavy_andalusian_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_gran_t3_granadine_jund_cavalry"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="earl_gran_t3_granadine_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_gran_t3_ghumara_tribal_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="earl_gran_t3_dismounted_malughun"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="earl_haf_t3_tunisian_warrior"></MenAtArm>
 
@@ -1456,6 +1747,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_gran_t3_ghumara_tribal_gunners"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="earl_gran_t3_dismounted_malughun"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_gran_t3_andalusian_mounted_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_gran_t3_granadine_arquebusier" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mus_t3_culverin" max="RANGED"></MenAtArm>
 	</Faction>		
 	
 	<Faction name="Aragonese">
@@ -1474,6 +1771,7 @@
 		<MenAtArm type="crossbowmen" key="mk_ara_t3_pavise_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_ara_t3_mounted_sergeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_ara_t3_armats"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_ara_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_ara_t3_halberdier_maa"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_spanish_order_knights_dismounted"></MenAtArm>
 
@@ -1490,6 +1788,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_ara_t3_peones"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="earl_gran_t3_dismounted_malughun"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_ara_t3_mounted_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_ara_t3_arquebusier" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t3_culverin" max="RANGED"></MenAtArm>
 	</Faction>		
 	
 	<Faction name="Castilian">
@@ -1507,6 +1811,7 @@
 		<MenAtArm type="crossbowmen" key="mk_cas_t3_pavise_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_cas_t3_caballeros_villanos"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_cas_t3_hidalgos"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_cas_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_cas_t3_monteros_de_espinosa"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_spanish_order_knights_dismounted"></MenAtArm>
 
@@ -1523,6 +1828,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_cas_t3_rodeleros"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_cas_t3_monteros_de_espinosa"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_cas_t3_mounted_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_cas_t3_arquebusier" max="RANGED"></MenAtArm>
+			
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t3_culverin" max="RANGED"></MenAtArm>
 	</Faction>		
 
 	<Faction name="Basque">
@@ -1541,6 +1852,7 @@
 		<MenAtArm type="crossbowmen" key="mk_nav_t3_pavise_crossbow_sergeants"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_nav_t3_mounted_sergeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_nav_t3_armados"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_nav_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_nav_t3_navarrese_guard_archers"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_spanish_order_knights_dismounted"></MenAtArm>
 
@@ -1557,6 +1869,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_nav_t3_handgunners"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_nav_t3_dismounted_armados"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_nav_t3_mounted_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_ara_t3_arquebusier" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t3_culverin" max="RANGED"></MenAtArm>
 	</Faction>			
 	
 	<Faction name="Portuguese">
@@ -1574,6 +1892,7 @@
 		<MenAtArm type="crossbowmen" key="mk_por_t3_besteiro_do_conto"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_por_t3_acontiados_de_cavalo"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_por_t3_cavaleiros"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_nav_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_mio_t3_spanish_order_knights_dismounted"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_spanish_order_knights_dismounted"></MenAtArm>
 
@@ -1590,6 +1909,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_merc_ara_t3_almogavar"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_por_t3_cavaleiros_apeados"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_por_t3_besteiros_de_cavalo"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_por_t3_espingardeiros" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t3_culverin" max="RANGED"></MenAtArm>
 	</Faction>	
 	
 	<Faction name="Afghan">
@@ -1608,6 +1933,7 @@
 		<MenAtArm type="crossbowmen" key="mk_ghu_t3_nawak_infantry"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_ghu_t3_do-aspas"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_ghu_t3_murattabs"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_ghu_t3_tufangchiyan" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_khw_t3_qolloghchi_pasdaran"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 
@@ -1630,6 +1956,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_khw_t3_turkoman_tabardaran"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_per_t3_dismounted_pushandar"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_ghu_t3_nawak_infantry"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_ghu_t3_arquebusier" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mus_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>		
 
 	<Faction name="Daylamite">
@@ -1647,6 +1979,7 @@
 		<MenAtArm type="crossbowmen" key="mk_khw_t3_charkh_infantry"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_per_t3_daylami_cavalry"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_per_t3_ghulaman"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_khw_t3_tofangchiyan" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_khw_t3_qolloghchi_pasdaran"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 
@@ -1669,6 +2002,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_per_t3_daylami_skirmishers"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_khw_t3_foot_boynukar"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_khw_t3_charkh_infantry"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_khw_t3_arquebusier" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mus_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>		
 
 	<Faction name="Khwarazmian">
@@ -1687,6 +2026,7 @@
 		<MenAtArm type="crossbowmen" key="mk_khw_t3_charkh_infantry"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_khw_t3_mounted_qullughchi"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_khw_t3_boynukars"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_khw_t3_tofangchiyan" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_khw_t3_qolloghchi_pasdaran"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 
@@ -1709,6 +2049,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_khw_t3_rayat"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_per_t3_dismounted_pushandar"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_khw_t3_charkh_infantry"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_khw_t3_arquebusier" max="RANGED"></MenAtArm>
+			
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mus_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 	
 	<Faction name="Persian">
@@ -1727,6 +2073,7 @@
 		<MenAtArm type="crossbowmen" key="mk_khw_t3_charkh_infantry"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_khw_t3_mounted_qullughchi"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_khw_t3_boynukars"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_khw_t3_tofangchiyan" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_khw_t3_qolloghchi_pasdaran"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 
@@ -1749,6 +2096,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_khw_t3_turkoman_tabardaran"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_per_t3_dismounted_pushandar"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_khw_t3_charkh_infantry"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_khw_t3_arquebusier" max="RANGED"></MenAtArm>
+			
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mus_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>		
 	
 	<Faction name="Kurdish">
@@ -1766,6 +2119,7 @@
 		<MenAtArm type="crossbowmen" key="mk_khw_t3_charkh_infantry"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_khw_t3_mounted_qullughchi"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_khw_t3_boynukars"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_khw_t3_tofangchiyan" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_khw_t3_qolloghchi_pasdaran"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 
@@ -1788,6 +2142,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_khw_t3_turkoman_tabardaran"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_per_t3_dismounted_pushandar"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_khw_t3_charkh_infantry"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_khw_t3_arquebusier" max="RANGED"></MenAtArm>
+			
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mus_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>		
 
 	<Faction name="Khorasani">
@@ -1806,6 +2166,7 @@
 		<MenAtArm type="crossbowmen" key="mk_khw_t3_charkh_infantry"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_ilkhan_t3_tserig_cavalry"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_ilkhan_t3_nokor"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_khw_t3_tofangchiyan" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_khw_t3_qolloghchi_pasdaran"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 
@@ -1828,6 +2189,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_khw_t3_javanmardan"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_rum_t3_kapikulu_heavy_infantry"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_ilkhan_t3_tserig_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_khw_t3_arquebusier" max="RANGED"></MenAtArm>
+			
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mus_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 
 	<Faction name="Cisalpine">
@@ -1845,6 +2212,7 @@
 		<MenAtArm type="crossbowmen" key="mk_mil_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_mil_t3_mounted_serjeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_mil_t3_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_mil_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_mil_t3_ducal_guard"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_templar_knights_dismounted"></MenAtArm>
 
@@ -1857,6 +2225,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_mil_t3_militia_gunners"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_mil_t3_foot_knights"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_mil_t3_mounted_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_mil_t3_arquebusier" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t3_culverin" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Papal States">
@@ -1874,6 +2248,7 @@
 		<MenAtArm type="crossbowmen" key="mk_pap_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_pap_t3_mounted_serjeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_merc_ita_t3_condottieri"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_pap_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_mio_t3_hospitaller_bodyguard"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_templar_knights_dismounted"></MenAtArm>
 
@@ -1886,6 +2261,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_pap_t3_light_gunners"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_mio_t3_hospitaller_knights_dismounted"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_pap_t3_mounted_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_pap_t3_gunners" max="RANGED"></MenAtArm>
+				
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Pisan">
@@ -1903,6 +2284,7 @@
 		<MenAtArm type="crossbowmen" key="mk_pis_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_pis_t3_mounted_serjeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_merc_ita_t3_condottieri"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_pap_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_pis_t3_foot_knights"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_hospitaller_knights_dismounted"></MenAtArm>
 
@@ -1915,6 +2297,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_pis_t3_militia_gunners"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_mio_t3_hospitaller_knights_dismounted"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_pis_t3_mounted_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_pis_t3_arquebusier" max="RANGED"></MenAtArm>
+					
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Roman">
@@ -1932,6 +2320,7 @@
 		<MenAtArm type="crossbowmen" key="mk_lat_t3_pavise_balestarii"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_epi_t3_megaloallagitai"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_epi_t3_hippovardariotai"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_mio_t3_hospitaller_caravan" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_epi_t3_englinovarangoi"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_hospitaller_knights_dismounted"></MenAtArm>
 		
@@ -1946,6 +2335,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_lat_t3_almughavares"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_lat_t3_dismounted_men_at_arms"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_mio_t3_hospitaller_caravan_crossbow"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_mio_t3_hospitaller_caravan" max="RANGED"></MenAtArm>
+
+		<MenAtArm type="onager" key="mk_byz_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_byz_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_byz_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_byz_t3_great_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Genoan">
@@ -1963,6 +2358,7 @@
 		<MenAtArm type="crossbowmen" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_gen_t3_mounted_serjeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_merc_ita_t3_condottieri"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_gen_t3_militia_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_gen_t3_ducal_guard"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_templar_knights_dismounted"></MenAtArm>
 
@@ -1975,6 +2371,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_gen_t3_militia_gunners"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_gen_t3_foot_knights"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_gen_t3_mounted_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_gen_t3_gunners" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t3_culverin" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Sardinian">
@@ -1992,6 +2394,7 @@
 		<MenAtArm type="crossbowmen" key="mk_ara_t3_peones_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_ara_t3_alforrats"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_merc_ita_t3_condottieri"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_gen_t3_militia_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_gen_t3_ducal_guard"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_templar_knights_dismounted"></MenAtArm>
 
@@ -2004,6 +2407,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_ara_t3_peones"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_ara_t3_halberdier_maa"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_gen_t3_gunners" max="RANGED"></MenAtArm>		
+		
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Sicilian">
@@ -2021,6 +2430,7 @@
 		<MenAtArm type="crossbowmen" key="mk_sic_t3_pavise_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_sic_t3_mounted_serjeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_sic_t3_condo_maa"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_sic_t3_handgunner" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_ara_t3_halberdier_maa"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_hospitaller_knights_dismounted"></MenAtArm>
 
@@ -2033,6 +2443,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_merc_ara_t3_almogavar"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_ara_t3_halberdier_maa"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_sic_t3_mounted_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_sic_t3_handgunner" max="RANGED"></MenAtArm>		
+				
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Hungarian">
@@ -2051,6 +2467,7 @@
 		<MenAtArm type="crossbowmen" key="mk_hun_t3_pavise_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_hun_t3_light_lancer"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_hun_t3_knight"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_hun_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_hun_t3_halberdiers"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_templar_knights_dismounted"></MenAtArm>
 
@@ -2071,6 +2488,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_hun_t3_handgunners"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_hun_t3_2h_axemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_hun_t3_mounted_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_hun_t3_arquebusier" max="RANGED"></MenAtArm>		
+				
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 	
 	<Faction name="Magyar">
@@ -2088,6 +2511,7 @@
 		<MenAtArm type="crossbowmen" key="mk_vlach_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_hun_t3_huszar"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_vlach_t3_viteji"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_hun_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_vlach_t3_guard_archers"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_templar_knights_dismounted"></MenAtArm>
 
@@ -2115,6 +2539,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_hun_t3_saxon_militia_halberdiers"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_hun_t3_2h_axemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_hun_t3_pavise_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_hun_t3_arquebusier" max="RANGED"></MenAtArm>		
+				
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 
 	<Faction name="Mongol">
@@ -2132,6 +2562,7 @@
 		<MenAtArm type="crossbowmen" key="mk_rus_t2_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_gold_t3_khisigten"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_gold_t3_nokor"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_gold_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_rus_t3_guard_axemen"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_rum_t2_noker_foot_guards"></MenAtArm>
 
@@ -2151,6 +2582,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_gold_t3_tserig_axemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_volga_t3_elite_archers"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_gold_t3_arquebusier" max="RANGED"></MenAtArm>		
+		
+		<MenAtArm type="onager" key="mk_mon_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mon_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mon_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mon_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 
 	<Faction name="Danish">
@@ -2168,6 +2605,7 @@
 		<MenAtArm type="crossbowmen" key="mk_dan_t3_pavise_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_fla_t3_mounted_sergeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_dan_t3_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_dan_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_dan_t3_noble_longswords"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_teu_t3_halbbruder_halberdiers"></MenAtArm>
 
@@ -2184,6 +2622,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_fla_t3_swordsmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_dan_t3_noble_longswords"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_dan_t3_mounted_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_dan_t3_arquebusier" max="RANGED"></MenAtArm>		
+				
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Norse">
@@ -2201,6 +2645,7 @@
 		<MenAtArm type="crossbowmen" key="mk_nor_t2_crossbow_vaepnere"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_nor_t2_knekts"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_nor_t2_mounted_riddere"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_dan_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_brab_t3_dismounted_duke_guard"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_teu_t3_halbbruder_halberdiers"></MenAtArm>
 	
@@ -2221,6 +2666,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_brab_t3_sergeants"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_nor_t2_foot_riddere"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_fla_t2_guild_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_dan_t3_arquebusier" max="RANGED"></MenAtArm>		
+					
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 	
 	<Faction name="Norwegian">
@@ -2238,6 +2689,7 @@
 		<MenAtArm type="crossbowmen" key="mk_han_t2_hanse_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_brab_t3_mounted_sergeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_nor_t2_mounted_riddere"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_dan_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_brab_t3_dismounted_duke_guard"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_teu_t3_halbbruder_halberdiers"></MenAtArm>
 
@@ -2258,6 +2710,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_nor_t2_atgeir_bondir"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_brab_t3_dismounted_duke_guard"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_fla_t2_guild_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_dan_t3_arquebusier" max="RANGED"></MenAtArm>		
+				
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>		
 	
 	<Faction name="Swedish">
@@ -2275,6 +2733,7 @@
 		<MenAtArm type="crossbowmen" key="mk_fla_t3_sergeant_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_han_t2_hanse_lance"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_merc_eur_t3_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_dan_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_dan_t3_noble_longswords"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_teu_t3_halbbruder_halberdiers"></MenAtArm>
 	
@@ -2293,6 +2752,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_fla_t3_swordsmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_dan_t3_noble_longswords"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_dan_t3_mounted_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_dan_t3_arquebusier" max="RANGED"></MenAtArm>		
+				
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>		
 	
 	<Faction name="Bosnian">
@@ -2310,6 +2775,7 @@
 		<MenAtArm type="crossbowmen" key="mk_bos_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_bos_t3_cavalry"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_croat_T3_knight"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_bos_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_croat_T3_halberdiers"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_hospitaller_knights_dismounted"></MenAtArm>
 		
@@ -2328,6 +2794,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_alb_t3_javelinmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_hre_t3_dismounted_ritter"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>	
+		<MenAtArm type="accolade_maa_handgunners" key="mk_bos_t3_arquebusier" max="RANGED"></MenAtArm>		
+				
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Bulgarian">
@@ -2346,6 +2818,7 @@
 		<MenAtArm type="crossbowmen" key="mk_bulg_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_bulg_t3_cavalry"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_bulg_t3_heavy_cavalry"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_bulg_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_bulg_t3_guard_halberd"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_rus_t3_guard_axemen"></MenAtArm>
 	
@@ -2364,6 +2837,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_bulg_t3_handgunners"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_bulg_t3_voivods"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>	
+		<MenAtArm type="accolade_maa_handgunners" key="mk_bulg_t3_arquebusier" max="RANGED"></MenAtArm>		
+				
+		<MenAtArm type="onager" key="mk_byz_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_byz_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_byz_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_byz_t2_bombard" max="RANGED"></MenAtArm>	
 	</Faction>
 
 	<Faction name="Croatian">
@@ -2382,6 +2861,7 @@
 		<MenAtArm type="crossbowmen" key="mk_croat_T3_pavise_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_croat_T3_cavalry"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_croat_T3_knight"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_croat_T3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_merc_eur_t2_dismounted_MAA"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_templar_knights_dismounted"></MenAtArm>	
 	
@@ -2400,6 +2880,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_alb_t3_javelinmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_hre_t3_dismounted_ritter"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_croat_T3_mounted_crossbowmen"></MenAtArm>	
+		<MenAtArm type="accolade_maa_handgunners" key="mk_croat_t3_arquebusier" max="RANGED"></MenAtArm>		
+						
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Serbian">
@@ -2417,6 +2903,7 @@
 		<MenAtArm type="crossbowmen" key="mk_serb_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_serb_t3_pronija_lancer"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_serb_t3_vlastela"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_serb_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_bulg_t3_guard_halberd"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_rus_t3_guard_axemen"></MenAtArm>	
 	
@@ -2435,6 +2922,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_serb_t2_ragusan_cakoni_gunner"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_rus_t3_guard_axemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>	
+		<MenAtArm type="accolade_maa_handgunners" key="mk_serb_t3_arquebusier" max="RANGED"></MenAtArm>		
+				
+		<MenAtArm type="onager" key="mk_byz_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_byz_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_byz_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_byz_t2_bombard" max="RANGED"></MenAtArm>	
 	</Faction>
 
 	<Faction name="Cuman">
@@ -2452,6 +2945,7 @@
 		<MenAtArm type="crossbowmen" key="mk_rus_t2_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_cuman_t3_heavy_lancers"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_cuman_t3_nogers"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_cuman_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_rus_t3_guard_axemen"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_ilkhan_t3_dismounted_nokor"></MenAtArm>
 
@@ -2479,6 +2973,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_cuman_t3_light_spearmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_cuman_t3_dismounted_nogers"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_cuman_t3_arquebusier" max="RANGED"></MenAtArm>		
+				
+		<MenAtArm type="onager" key="mk_mon_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mon_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mon_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>	
 	</Faction>
 
 	<Faction name="Pecheneg">
@@ -2496,6 +2996,7 @@
 		<MenAtArm type="crossbowmen" key="mk_mold_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_cuman_t3_heavy_lancers"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_cuman_t3_nogers"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_cuman_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_rus_t3_guard_axemen"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_cuman_t3_dismounted_nogers"></MenAtArm>
 
@@ -2523,6 +3024,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_rus_t3_militia_axemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_rus_t3_guard_axemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_cuman_t3_arquebusier" max="RANGED"></MenAtArm>		
+				
+		<MenAtArm type="onager" key="mk_mon_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mon_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mon_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>	
 	</Faction>
 	
 	<Faction name="Bolghar">
@@ -2540,6 +3047,7 @@
 		<MenAtArm type="crossbowmen" key="mk_rum_t3_martolos_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_volga_t3_knights"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_volga_t3_elite_cav"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_volga_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_rum_t3_kapikulu_heavy_infantry"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_rum_t3_kapikulu_heavy_infantry"></MenAtArm>
 
@@ -2568,6 +3076,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_volga_t3_gunners"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_rum_t3_kapikulu_heavy_infantry"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_volga_t3_arquebusier" max="RANGED"></MenAtArm>		
+				
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mus_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Turko Persian">
@@ -2585,6 +3099,7 @@
 		<MenAtArm type="crossbowmen" key="mk_ilkhan_t3_tserig_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_ilkhan_t3_tserig_cavalry"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_ilkhan_t3_nokor"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_ilkhan_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_ilkhan_t3_dismounted_nokor"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_ilkhan_t3_dismounted_nokor"></MenAtArm>
 
@@ -2615,6 +3130,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_khw_t3_javanmardan"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_ilkhan_t3_dismounted_nokor"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_ilkhan_t4_zamburak" max="RANGED"></MenAtArm>		
+				
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mus_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Seljuk">
@@ -2633,6 +3154,7 @@
 		<MenAtArm type="crossbowmen" key="mk_rum_t3_martolos_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_rum_t3_cebeli"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_rum_t3_rumeli_timarli_sipahis"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_ilkhan_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_rum_t3_kapikulu_heavy_infantry"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_rum_t3_kapikulu_heavy_infantry"></MenAtArm>
 
@@ -2663,6 +3185,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_rum_t3_axemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_rum_t3_kapikulu_heavy_infantry"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_ilkhan_t3_arquebusier" max="RANGED"></MenAtArm>		
+				
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mus_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Siberian">
@@ -2681,6 +3209,7 @@
 		<MenAtArm type="crossbowmen" key="mk_rus_t2_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_rus_t2_izgoi_scouts"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_volga_t3_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_volga_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_rus_t3_guard_axemen"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_rus_t3_guard_axemen"></MenAtArm>
 
@@ -2700,6 +3229,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_rus_t3_militia_axemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_rus_t3_dismounted_dvor"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_boh_t3_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_volga_t3_gunners" max="RANGED"></MenAtArm>		
+		
+		<MenAtArm type="onager" key="mk_mon_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mon_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mon_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mon_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Vlach">
@@ -2718,6 +3253,7 @@
 		<MenAtArm type="crossbowmen" key="mk_vlach_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_vlach_t3_viteji"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_vlach_t3_boieri"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_vlach_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_vlach_t3_guard"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_rus_t3_guard_axemen"></MenAtArm>
 
@@ -2738,6 +3274,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_vlach_t2_plaiesi_javelinmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_vlach_t3_guard"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_boh_t3_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_vlach_t3_arquebusier" max="RANGED"></MenAtArm>		
+		
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 
 	<Faction name="Mordvin">
@@ -2755,6 +3297,7 @@
 		<MenAtArm type="crossbowmen" key="mk_mold_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_mold_t3_viteji"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_mold_t3_curteni_cavalry"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_rus_t3_arquebusier" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_rus_t3_guard_axemen"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_rus_t3_guard_axemen"></MenAtArm>
 
@@ -2775,6 +3318,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_vlach_t3_maciuca_macemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_rus_t3_guard_axemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_boh_t3_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_rus_t3_streltsy" max="RANGED"></MenAtArm>
+						
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_rus_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>		
 	
 	<Faction name="English">
@@ -2793,6 +3342,7 @@
 		<MenAtArm type="crossbowmen" key="mk_tri_t3_trier_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_eng_t3_mounted_serjeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_eng_t3_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_eng_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_eng_t3_henry_bodyguard"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_templar_knights_dismounted"></MenAtArm>	
 
@@ -2806,6 +3356,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_tri_t3_trier_swordsmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_eng_t3_yeomen_of_guard"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_fla_t3_guild_crossbowmen"></MenAtArm>	
+		<MenAtArm type="accolade_maa_handgunners" key="mk_eng_t3_arquebusier" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t3_culverin" max="RANGED"></MenAtArm>	
 	</Faction>	
 	
 	<Faction name="Carantanian">
@@ -2823,6 +3379,7 @@
 		<MenAtArm type="crossbowmen" key="mk_aus_t3_pavise_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_boh_t3_mounted_sergeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_aus_t3_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_merc_ger_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_aus_t3_knight_dismounted"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_templar_knights_dismounted"></MenAtArm>
 
@@ -2841,6 +3398,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_merc_boh_t3_flailmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_aus_t3_knight_dismounted"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>	
+		<MenAtArm type="accolade_maa_handgunners" key="mk_boh_t3_hussite_handgunners" max="RANGED"></MenAtArm>
+				
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>	
 	</Faction>	
 	
 	<Faction name="Bohemian">
@@ -2858,6 +3421,7 @@
 		<MenAtArm type="crossbowmen" key="mk_boh_t3_pavise_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_boh_t3_mounted_sergeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_boh_t3_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_boh_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_boh_t3_2h_axemen"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_teu_t3_halbbruder_halberdiers"></MenAtArm>
 
@@ -2875,7 +3439,13 @@
 		<MenAtArm type="accolade_maa_pikes" key="mk_boh_t3_halberdiers"></MenAtArm>
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_boh_t3_hussite_handgunners"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_boh_t3_2h_axemen"></MenAtArm>
-		<MenAtArm type="accolade_maa_crossbowers" key="mk_boh_t3_mounted_crossbowmen"></MenAtArm>	
+		<MenAtArm type="accolade_maa_crossbowers" key="mk_boh_t3_mounted_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_boh_t3_arquebusier" max="RANGED"></MenAtArm>
+				
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>			
 	</Faction>
 
 	<Faction name="Slovianskan">
@@ -2893,6 +3463,7 @@
 		<MenAtArm type="crossbowmen" key="mk_merc_boh_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_hre_t3_reisige"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_pol_t3_foreign_german_mounted_maa"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_merc_ger_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_pol_t3_heavy_foreign_axemen"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_pol_t3_heavy_foreign_axemen"></MenAtArm>
 
@@ -2910,7 +3481,13 @@
 		<MenAtArm type="accolade_maa_pikes" key="mk_pol_t3_halberdier"></MenAtArm>
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_lit_t3_axemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_pol_t3_heavy_foreign_axemen"></MenAtArm>
-		<MenAtArm type="accolade_maa_crossbowers" key="mk_pol_t3_pavise_crossbowmen"></MenAtArm>	
+		<MenAtArm type="accolade_maa_crossbowers" key="mk_pol_t3_pavise_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_pol_t3_handgunners" max="RANGED"></MenAtArm>
+				
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>			
 	</Faction>
 
 	<Faction name="Polish">
@@ -2928,6 +3505,7 @@
 		<MenAtArm type="crossbowmen" key="mk_pol_t3_pavise_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_pol_t3_lesser_knights"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_pol_t3_knight"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_pol_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_pol_t3_heavy_foreign_axemen"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_teu_t3_halbbruder_halberdiers"></MenAtArm>
 
@@ -2945,7 +3523,13 @@
 		<MenAtArm type="accolade_maa_pikes" key="mk_pol_t3_pavise_spearmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_pol_t3_levy_pikemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_pol_t3_heavy_foreign_axemen"></MenAtArm>
-		<MenAtArm type="accolade_maa_crossbowers" key="mk_pol_t3_mounted_crossbowmen"></MenAtArm>	
+		<MenAtArm type="accolade_maa_crossbowers" key="mk_pol_t3_mounted_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_pol_t3_handgunners" max="RANGED"></MenAtArm>
+				
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>			
 	</Faction>	
 	
 	<Faction name="Austrian">
@@ -2964,6 +3548,7 @@
 		<MenAtArm type="crossbowmen" key="mk_aus_t3_pavise_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_hre_t3_reisige"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_merc_ger_t3_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_merc_ger_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="earl_ger_t3_gothic_dismounted"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_templar_knights_dismounted"></MenAtArm>
 
@@ -2979,7 +3564,13 @@
 		<MenAtArm type="accolade_maa_pikes" key="mk_hre_t3_doppelsoldner"></MenAtArm>
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_swi_t3_eidgenossen_pikemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="earl_hre_t3_doppelsoldner_greatsword"></MenAtArm>
-		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>	
+		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_hre_t3_landsknecht_handgunner" max="RANGED"></MenAtArm>
+				
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>			
 	</Faction>	
 	
 	<Faction name="Burgundian">
@@ -2998,6 +3589,7 @@
 		<MenAtArm type="crossbowmen" key="mk_bur_t3_pavise_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_bur_t3_coustiliers"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_bur_t3_chevaliers"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_bur_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_bur_t3_ducal_household_guisarmier"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_templar_knights_dismounted"></MenAtArm>
 
@@ -3010,6 +3602,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_bur_t3_handgunners"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_bur_t2_dismounted_chevaliers"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_bur_t3_mounted_crossbowmen"></MenAtArm>	
+		<MenAtArm type="accolade_maa_handgunners" key="mk_bur_t3_arquebusier" max="RANGED"></MenAtArm>
+						
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t3_great_bombard" max="RANGED"></MenAtArm>	
 	</Faction>		
 
 	<Faction name="Lothringian">
@@ -3028,6 +3626,7 @@
 		<MenAtArm type="crossbowmen" key="mk_lor_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_lor_t3_coutiliers"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_lor_t3_chevaliers"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_lor_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_lor_t3_polearms"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_lor_t3_sawell_de_mann"></MenAtArm>
 
@@ -3037,7 +3636,13 @@
 		<MenAtArm type="accolade_maa_pikes" key="mk_lor_t3_halberd"></MenAtArm>
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_lor_t3_gunners"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_lor_t3_polearms"></MenAtArm>
-		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>	
+		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_lor_t3_arquebusier" max="RANGED"></MenAtArm>
+						
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t3_great_bombard" max="RANGED"></MenAtArm>			
 	</Faction>		
 
 	<Faction name="Flemish">
@@ -3056,6 +3661,7 @@
 		<MenAtArm type="crossbowmen" key="mk_fla_t3_sergeant_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_fla_t3_mounted_sergeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_fla_t3_maa"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_fla_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_fla_t3_guild_swordsmen"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_fla_t3_guild_swordsmen"></MenAtArm>
 
@@ -3068,7 +3674,13 @@
 		<MenAtArm type="accolade_maa_pikes" key="mk_fla_t3_sergeant_spearmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_fla_t3_goedendag_shock"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_fla_t3_guild_swordsmen"></MenAtArm>
-		<MenAtArm type="accolade_maa_crossbowers" key="mk_fla_t3_mounted_crossbowmen"></MenAtArm>	
+		<MenAtArm type="accolade_maa_crossbowers" key="mk_fla_t3_mounted_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_fla_t3_arquebusier" max="RANGED"></MenAtArm>
+						
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t3_culverin" max="RANGED"></MenAtArm>			
 	</Faction>			
 	
 	<Faction name="Silesian">
@@ -3086,6 +3698,7 @@
 		<MenAtArm type="crossbowmen" key="mk_boh_t3_hussite_pavise_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_boh_t3_mounted_sergeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_merc_ger_t3_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_boh_t3_hussite_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_pol_t3_heavy_foreign_axemen"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_teu_t3_halbbruder_halberdiers"></MenAtArm>
 
@@ -3104,6 +3717,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_boh_t3_hussite_flailmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_hre_t3_dismounted_ritter"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_boh_t3_hussite_mounted_cossbowmen"></MenAtArm>	
+		<MenAtArm type="accolade_maa_handgunners" key="mk_pol_t3_handgunners" max="RANGED"></MenAtArm>
+								
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>	
 	</Faction>	
 		
 	<Faction name="Norse Gael">
@@ -3121,6 +3740,7 @@
 		<MenAtArm type="crossbowmen" key="mk_brab_t2_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_nor_t2_knekts"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_nor_t2_mounted_riddere"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_dan_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_wel_t3_dismounted_maa"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_spanish_order_knights_dismounted"></MenAtArm>
 
@@ -3142,6 +3762,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_wel_t2_ysbeilwyr"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_brab_t3_dismounted_knights"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_fla_t2_guild_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_dan_t3_handgunners" max="RANGED"></MenAtArm>
+										
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>	
 	</Faction>		
 	
 	<Faction name="Aenglish">
@@ -3159,6 +3785,7 @@
 		<MenAtArm type="crossbowmen" key="mk_han_t2_hanse_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_nor_t2_knekts"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_eng_t3_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_dan_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_eng_t3_henry_bodyguard"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_hospitaller_knights_dismounted"></MenAtArm>	
 
@@ -3181,6 +3808,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_tri_t3_trier_swordsmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_eng_t3_yeomen_of_guard"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_fla_t3_guild_crossbowmen"></MenAtArm>	
+		<MenAtArm type="accolade_maa_handgunners" key="mk_dan_t3_handgunners" max="RANGED"></MenAtArm>
+										
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>	
 	</Faction>		
 	
 	<Faction name="Danelander">
@@ -3198,6 +3831,7 @@
 		<MenAtArm type="crossbowmen" key="mk_dan_t3_pavise_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_eng_t3_mounted_serjeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_eng_t3_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_dan_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_eng_t3_henry_bodyguard"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_hospitaller_knights_dismounted"></MenAtArm>	
 
@@ -3217,7 +3851,13 @@
 		<MenAtArm type="accolade_maa_pikes" key="mk_eng_t3_heavy_billmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_fla_t3_goedendag_shock"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_dan_t3_noble_longswords"></MenAtArm>
-		<MenAtArm type="accolade_maa_crossbowers" key="mk_fla_t3_guild_crossbowmen"></MenAtArm>	
+		<MenAtArm type="accolade_maa_crossbowers" key="mk_fla_t3_guild_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_eng_t3_arquebusier" max="RANGED"></MenAtArm>
+								
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>			
 	</Faction>		
 	
 	<Faction name="Swiss">
@@ -3235,6 +3875,7 @@
 		<MenAtArm type="crossbowmen" key="mk_swi_t3_eidgenossen_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_swi_t3_mounted_crossbows"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_swi_t3_gewappnete"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_swi_t3_eidgenossen_handgunner" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_swi_t3_dismounted_gewappnete"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_templar_knights_dismounted"></MenAtArm>
 
@@ -3247,6 +3888,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_swi_t3_eidgenossen_handgunner"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_swi_t3_dismounted_gewappnete"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_swi_t3_arquebusier" max="RANGED"></MenAtArm>
+										
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>	
 	</Faction>
 	
 	<Faction name="Outremer">
@@ -3264,6 +3911,7 @@
 		<MenAtArm type="crossbowmen" key="mk_jer_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_jer_t3_mounted_serjeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_jer_t3_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_jer_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_mio_t3_hospitaller_knights_dismounted"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_templar_knights_dismounted"></MenAtArm>
 		
@@ -3277,6 +3925,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_jer_t3_gunners"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_mio_t3_templar_knights_dismounted"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_mio_t3_hospitaller_caravan"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_mio_t3_hospitaller_caravan" max="RANGED"></MenAtArm>
+										
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>	
 	</Faction>	
 	
 	<Faction name="Neopolitan">
@@ -3294,6 +3948,7 @@
 		<MenAtArm type="crossbowmen" key="mk_nap_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_nap_t3_mounted_serjeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_ita_t3_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_nap_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_fre_t3_scots_guard_halberdier"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_hospitaller_knights_dismounted"></MenAtArm>
 
@@ -3306,6 +3961,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_nap_t3_gunners"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_fre_t3_chevaliers_dismounted"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_nap_t3_arquebusier" max="RANGED"></MenAtArm>
+										
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>	
 	</Faction>
 		
 	<Faction name="Venetian">
@@ -3323,6 +3984,7 @@
 		<MenAtArm type="crossbowmen" key="mk_ven_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_ven_t3_mounted_zaffones"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_ven_t3_knight"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_ven_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_ven_t3_foot_knight"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_hospitaller_knights_dismounted"></MenAtArm>
 
@@ -3335,6 +3997,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_ven_t3_militia_gunners"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_ven_t3_foot_knight"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_ven_t3_arquebusier" max="RANGED"></MenAtArm>
+										
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t3_culverin" max="RANGED"></MenAtArm>	
 	</Faction>	
 	
 	<Faction name="Florentine">
@@ -3352,6 +4020,7 @@
 		<MenAtArm type="crossbowmen" key="mk_flo_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_flo_t3_mounted_serjeants"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_merc_ita_t3_condottieri"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_flo_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_pis_t3_foot_knights"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_hospitaller_knights_dismounted"></MenAtArm>
 
@@ -3364,6 +4033,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_pis_t3_foot_berrovieri"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_pis_t3_foot_knights"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_flo_t3_arquebusier" max="RANGED"></MenAtArm>
+												
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Trierer">
@@ -3381,6 +4056,7 @@
 		<MenAtArm type="crossbowmen" key="mk_tri_t3_elector_pavise_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_tri_t3_elector_horsemen"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_tri_t3_elector_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_tri_t3_trier_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_tri_t3_dismounted_elector_guard"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_lor_t3_sawell_de_mann"></MenAtArm>
 		
@@ -3391,6 +4067,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_tri_t3_trier_swordsmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_tri_t3_dismounted_elector_guard"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_tri_t3_trier_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_tri_t3_arquebusier" max="RANGED"></MenAtArm>
+												
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 
 	<Faction name="Teutonic">
@@ -3409,6 +4091,7 @@
 		<MenAtArm type="crossbowmen" key="mk_teu_t3_pavise_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_teu_t3_halbbruder"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_teu_t3_mitbruder"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_teu_t3_pavise_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_teu_t3_halbbruder_halberdiers"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_teu_t3_dismounted_ritterbruder"></MenAtArm>
 	
@@ -3431,6 +4114,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_teu_t3_pogesanian_raiders"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="earl_ger_t3_gothic_dismounted"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_teu_t3_halbbrudder_mounted_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_teu_t3_pavise_handgunners" max="RANGED"></MenAtArm>
+												
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>
 	
 	<Faction name="Savoyard">
@@ -3448,6 +4137,7 @@
 		<MenAtArm type="crossbowmen" key="mk_pis_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_bur_t3_coustiliers"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_bur_t3_chevaliers"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_pap_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_bur_t3_ducal_household_guisarmier"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_templar_knights_dismounted"></MenAtArm>
 		
@@ -3458,6 +4148,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_bur_t3_levy_macemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_bur_t3_dismounted_chevaliers"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_pis_t3_arquebusier" max="RANGED"></MenAtArm>	
+		
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t3_culverin" max="RANGED"></MenAtArm>
 	</Faction>		
 		
 	<Faction name="Ottoman">
@@ -3476,6 +4172,7 @@
 		<MenAtArm type="crossbowmen" key="mk_rum_t3_martolos_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_rum_t3_cebeli"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_rum_t3_rumeli_timarli_sipahis"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_rum_t3_yeniceri_tufenkci" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_rum_t3_peyks"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_rum_t3_kapikulu_heavy_infantry"></MenAtArm>
 
@@ -3498,6 +4195,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_rum_t3_axemen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_rum_t3_kapikulu_heavy_infantry"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_rum_t3_yeniceri_tufenkci_elite" max="RANGED"></MenAtArm>	
+				
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mus_t3_great_bombard" max="RANGED"></MenAtArm>	
 	</Faction>
 
 	<Faction name="Gothic">
@@ -3516,6 +4219,7 @@
 		<MenAtArm type="crossbowmen" key="mk_vlach_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_tre_t3_hippoakritai"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_tre_t3_oiketai"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_bulg_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_tre_t3_spatharioi_tou_vasileos"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_tre_t3_varangoi"></MenAtArm>
 
@@ -3535,6 +4239,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_tre_t3_spathatoi"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_tre_t3_varangoi"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_tre_t3_italikon"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_bulg_t3_arquebusier" max="RANGED"></MenAtArm>		
+			
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_rus_t2_bombard" max="RANGED"></MenAtArm>	
 	</Faction>	
 	
 	<Faction name="Mozarab">
@@ -3553,6 +4263,7 @@
 		<MenAtArm type="crossbowmen" key="mk_gran_t3_heavy_andalusian_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_gran_t3_granadine_jund_cavalry"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_alm_t3_jund_al_nasara"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_gran_t3_ghumara_tribal_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="earl_gran_t3_dismounted_malughun"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="earl_gran_t3_dismounted_malughun"></MenAtArm>
 
@@ -3577,6 +4288,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_gran_t3_granadine_arquebusier"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_ara_t3_halberdier_maa"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_gran_t3_andalusian_mounted_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_gran_t3_granadine_arquebusier" max="RANGED"></MenAtArm>
+						
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t3_culverin" max="RANGED"></MenAtArm>
 	</Faction>	
 	
 	<Faction name="Roman African">
@@ -3595,6 +4312,7 @@
 		<MenAtArm type="crossbowmen" key="mk_epi_t3_tzangratoroi"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_haf_t3_kabyle_tribal_horsemen"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_epi_t3_megaloallagitai"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_haf_t3_ifriqyan_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_epi_t3_englinovarangoi"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_epi_t3_englinovarangoi"></MenAtArm>
 
@@ -3616,6 +4334,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_mar_t3_drawi_tribal_gunners"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="earl_gran_t3_dismounted_malughun"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_gran_t3_heavy_andalusian_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_epi_t3_arquebusier" max="RANGED"></MenAtArm>
+						
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_byz_t3_culverin" max="RANGED"></MenAtArm>	
 	</Faction>		
 	
 	<Faction name="Dalmatian">
@@ -3633,6 +4357,7 @@
 		<MenAtArm type="crossbowmen" key="mk_croat_T3_pavise_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_ven_t3_mounted_zaffones"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_merc_ita_t3_condottieri"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_ven_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_ven_t3_foot_knight"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_hospitaller_knights_dismounted"></MenAtArm>
 
@@ -3649,6 +4374,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_merc_ara_t3_almogavar"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_ven_t3_foot_knight"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_ven_t3_arquebusier" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>		
 	</Faction>		
 
 	<Faction name="Trebizond">
@@ -3667,6 +4398,7 @@
 		<MenAtArm type="crossbowmen" key="mk_tre_t3_italikon"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_tre_t3_koursores"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_tre_t3_oiketai"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_tre_t3_skopetastai" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_tre_t3_spatharioi_tou_vasileos"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_tre_t3_varangoi"></MenAtArm>
 		
@@ -3687,6 +4419,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_tre_t3_spathatoi"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_tre_t3_varangoi"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_tre_t3_arquebusier" max="RANGED"></MenAtArm>
+					
+		<MenAtArm type="onager" key="mk_byz_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_byz_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_byz_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_byz_t2_bombard" max="RANGED"></MenAtArm>	
 	</Faction>
 
 	<Faction name="Albanian">
@@ -3696,7 +4434,7 @@
 		<Levies porcentage="45" key="mk_alb_t3_levy_spearmen"></Levies>
 		<Levies porcentage="25" key="mk_alb_t3_halberdiers"></Levies>
 		<Levies porcentage="10" key="mk_alb_t3_horse_archers"></Levies>
-		<Levies porcentage="20" key="mk_alb_t3_horsemen"></Levies>#
+		<Levies porcentage="20" key="mk_alb_t3_horsemen"></Levies>
 		
 		<MenAtArm type="light_footmen" key="mk_alb_t3_javelinmen"></MenAtArm>
 		<MenAtArm type="armored_footmen" key="mk_alb_t3_swordsmen"></MenAtArm>
@@ -3705,6 +4443,7 @@
 		<MenAtArm type="crossbowmen" key="mk_alb_t3_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_alb_t3_retainers"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_alb_t3_heavy_cavalry"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_ven_t3_gunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_tre_t2_varangoi"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_tre_t2_varangoi"></MenAtArm>
 		
@@ -3724,6 +4463,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_merc_ara_t3_almogavar"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_alb_t3_pavise_spearmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="earl_ven_t3_arquebusier" max="RANGED"></MenAtArm>
+						
+		<MenAtArm type="onager" key="mk_byz_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_byz_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_byz_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_byz_t2_bombard" max="RANGED"></MenAtArm>	
 	</Faction>
 
 	<Faction name="Copt">
@@ -3741,6 +4486,7 @@
 		<MenAtArm type="crossbowmen" key="mk_rum_t3_martolos_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_ant_t3_turcopole_scouts"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_mak_t3_nubian_heavy_cavalry"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_arm_t3_bourdjes_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_jer_t3_knights_dismounted"></MenAtArm>
 
@@ -3763,6 +4509,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_arm_t2_bardzraharker"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_arm_t3_dismounted_dziaworner"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_arm_t3_italian_colonials"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_tre_t3_arquebusier" max="RANGED"></MenAtArm>
+		
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mus_t2_bombard" max="RANGED"></MenAtArm>	
 	</Faction>		
 	
 	<Faction name="Wylish">
@@ -3780,6 +4532,7 @@
 		<MenAtArm type="crossbowmen" key="mk_epi_t3_tzangratoroi"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_epi_t2_megaloallagitai"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_epi_t3_hippovardariotai"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_epi_t3_skopetastai" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_epi_t3_vardariotai"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_epi_t3_englinovarangoi"></MenAtArm>
 
@@ -3793,6 +4546,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_wel_t2_ysbeilwyr"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_epi_t3_englinovarangoi"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_epi_t3_arquebusier" max="RANGED"></MenAtArm>
+					
+		<MenAtArm type="onager" key="mk_byz_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_byz_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_byz_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_byz_t3_culverin" max="RANGED"></MenAtArm>	
 	</Faction>
 	
 	<Faction name="Shirvani">
@@ -3811,6 +4570,7 @@
 		<MenAtArm type="crossbowmen" key="mk_khw_t3_charkh_infantry"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_volga_t3_chirmesh_lancers"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_haz_t3_hazaraspid_mounted_askari"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_khw_t3_tofangchiyan" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_khw_t3_qolloghchi_pasdaran"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_ayy_t3_tabardariyya"></MenAtArm>
 
@@ -3833,6 +4593,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_khw_t3_javanmardan"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_per_t3_dismounted_pushandar"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>
+		<MenAtArm type="accolade_maa_handgunners" key="mk_georg_t3_arquebusier" max="RANGED"></MenAtArm>
+					
+		<MenAtArm type="onager" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_mus_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_mus_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_mus_t2_bombard" max="RANGED"></MenAtArm>
 	</Faction>	
 
 	<Faction name="New English">
@@ -3851,6 +4617,7 @@
 		<MenAtArm type="crossbowmen" key="mk_tri_t3_trier_crossbowmen"></MenAtArm>
 		<MenAtArm type="light_horsemen" key="mk_cuman_t3_light_lancers"></MenAtArm>
 		<MenAtArm type="armored_horsemen" key="mk_eng_t3_knights"></MenAtArm>
+		<MenAtArm type="handgunners" key="mk_eng_t3_handgunners" max="RANGED"></MenAtArm> 
 		<MenAtArm type="house_guard" key="mk_eng_t3_yeomen_of_guard"></MenAtArm>
 		<MenAtArm type="teutonic_knights" key="mk_mio_t3_templar_knights_dismounted"></MenAtArm>	
 
@@ -3879,6 +4646,12 @@
 		<MenAtArm type="accolade_maa_skirmishers" key="mk_eng_t3_billmen"></MenAtArm>
 		<MenAtArm type="accolade_maa_vanguards" key="mk_cuman_t3_dismounted_nogers"></MenAtArm>
 		<MenAtArm type="accolade_maa_crossbowers" key="mk_merc_gen_t3_genoese_crossbowmen"></MenAtArm>	
+		<MenAtArm type="accolade_maa_handgunners" key="mk_eng_t3_arquebusier" max="RANGED"></MenAtArm>
+						
+		<MenAtArm type="onager" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="trebuchet" key="mk_eur_t1_trebuchet" max="RANGED"></MenAtArm>
+		<MenAtArm type="mangonel" key="mk_eur_t1_catapult" max="RANGED"></MenAtArm>
+		<MenAtArm type="bombard" key="mk_eur_t2_bombard" max="RANGED"></MenAtArm>	
 	</Faction>
 	
 </FactionsGroups>
